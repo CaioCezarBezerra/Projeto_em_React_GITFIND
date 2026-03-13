@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# GitFind 🔎
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação desenvolvida em React que permite buscar usuários do GitHub e visualizar seus repositórios de forma simples e rápida.
 
-## Available Scripts
+O projeto consome a API pública do GitHub para exibir informações como foto do perfil, nome do usuário e lista de repositórios.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- HTML
+- CSS
+- API pública do GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📌 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Buscar usuários do GitHub
+- Exibir foto e informações do perfil
+- Listar repositórios públicos
+- Interface simples e responsiva
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖥️ Demonstração
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Digite o nome de um usuário do GitHub na barra de busca para visualizar seus repositórios.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Exemplo:
 
-### `npm run eject`
+```
+CaioCezarBezerra
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O sistema irá buscar os dados diretamente da API do GitHub e mostrar os repositórios disponíveis.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Estrutura do projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src
+ ├── components
+ ├── services
+ ├── App.js
+ ├── index.js
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Como rodar o projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone o repositório
 
-### Code Splitting
+```
+git clone https://github.com/CaioCezarBezerra/Projeto_em_React_GITFIND.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Entre na pasta do projeto
 
-### Analyzing the Bundle Size
+```
+cd Projeto_em_React_GITFIND
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instale as dependências
 
-### Making a Progressive Web App
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Execute o projeto
 
-### Advanced Configuration
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📡 API utilizada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+API pública do GitHub
 
-### `npm run build` fails to minify
+```
+https://api.github.com/users/{username}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+- Consumo de API
+- Componentização em React
+- Manipulação de estados
+- Integração com serviços externos
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Caio Cezar**
+
+GitHub:
+https://github.com/CaioCezarBezerra
